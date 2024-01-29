@@ -4,7 +4,8 @@
 }
 
 .container {
-  margin: 30px;
+  margin: 42px;
+  text-align: center;
 }
 
 .section-one {
@@ -17,16 +18,67 @@
 }
 
 .section-two,
-.section-three {
+.section-three,
+.section-four,
+.section-five {
   display: inline-block;
   width: 350px;
-  height: 750px;
+  height: 630px;
   border-radius: 2px;
   border-style: solid;
 }
 
 .section-two__image,
-.section-three__image {
+.section-three__image,
+.section-four__image,
+.section-five__image {
   width: 350px;
-  height: 650px;
+  height: 530px;
 }
+
+.section-one__details,
+.section-two__details,
+.section-three__details,
+.section-four__details,
+.section-five__details {
+  font-family: 'Times New Roman', Times, serif;
+  font-style: bold;
+  font-size: larger;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.section-two__button,
+.section-three__button,
+.section-four__button,
+.section-five__button {
+  padding: 10px;
+  border-radius: 2px;
+  margin-bottom: 0px;
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.bold {
+  display: block;
+}
+
+.section-six {
+  margin-top: 20px;
+
+}
+
+.section-six,
+.th,
+.td,.tr{
+  background-color: black;
+  color: white;
+  display: block;
+  display: flex;
+  justify-content: center;
+}
+
+.section-six__inputbox1,.section-six__inputbox2,.section-six__inputbox3
