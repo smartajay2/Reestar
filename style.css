@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 .container {
   margin: 42px;
   text-align: center;
@@ -15,6 +19,13 @@
   text-align: center;
   padding: 25px;
   margin-bottom: 20px;
+}
+
+.section-one__details{
+  color: #80b380;
+}
+.section-one__details:hover{
+  color: #336699;
 }
 
 .section-two,
@@ -73,12 +84,21 @@
 
 .section-six,
 .th,
-.td,.tr{
+.td,
+.tr {
   background-color: black;
   color: white;
   display: block;
   display: flex;
   justify-content: center;
+  padding: 10px;
 }
 
-.section-six__inputbox1,.section-six__inputbox2,.section-six__inputbox3
+.button {
+  color: black;
+  background-color: yellow;
+  width: 300px;
+  border-collapse: collapse;
+  cursor: pointer;
+ font-weight: bold;
+}
