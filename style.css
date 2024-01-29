@@ -1,130 +1,32 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
-nav{
-  background-color: black;
-  color: white;
-  padding: 20px;
-  cursor: pointer;
-  
-  
-}
-h1,ul,li:hover{
-  color: gray;
+
+.container {
+  margin: 30px;
 }
 
-h1,ul,li:active{
-  color: brown;
-}
-H1{
-  color: white;
-  background-color: black;
+.section-one {
   display: block;
-  text-align: center;
- 
-}
-ul,li{
-  justify-content: center;
-  display: inline-block;
-  display: flex;
   background-color: black;
   color: white;
-  padding: 5px;
+  text-align: center;
+  padding: 25px;
+  margin-bottom: 20px;
 }
 
-.products {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-.box{
-  border-style: solid;
-  border-width: 10px;
+.section-two,
+.section-three {
   display: inline-block;
-  margin-top: 30px;
   width: 350px;
-  height: 350px;
-  border: 2px solid #000;
-  box-sizing: border-box;
-  text-align: center;
-  padding: 5px;
-  margin: 20px;
-  cursor: pointer;
- }
-
-.img{
-  width: 100px;
-  height: auto;
-  margin: 5px;
-  padding-top: 5px;
- 
+  height: 750px;
+  border-radius: 2px;
+  border-style: solid;
 }
 
-.box p{
-  margin-bottom: auto;
-  font-size: 16px;
-}
-
-.box:hover{
-  background-color: #000;
-  color: white;
-}
-
-.box:active{
-  background-color:white;
-  color: black;
-}
-
-.box{
-  position: relative;
-}
-
-.button{
-position: absolute;
-bottom: -2px;
-right: 150px;
-padding: 3px;
-}
-
-.button:hover{
-  background-color:white;
-  color: black;
-}
-
-.button:active{
-  background-color:green;
-  color: white;
-}
-form
-{
-display: flex;
-justify-content: center;
-}
-
-table{
-width: 80%;
-max-width: 600px;}
-
-
-tr{
-  background-color: #000;
-  color: white;
-}
-
-td{
-  text-align: center;
-vertical-align: middle;
-padding: 8px;
-}
-
-
-.send-button{
-  background-color: yellow;
-  width: 40%;
-  padding: 7px;
-  margin-left: 30%;
-  text-align: center;
-  vertical-align: middle;
+.section-two__image,
+.section-three__image {
+  width: 350px;
+  height: 650px;
 }
